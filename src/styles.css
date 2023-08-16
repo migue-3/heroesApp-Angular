@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body {
+    overflow-x: hidden;
+ }
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.mi-mat-card {
+    flex: 4; /* Otra opción es usar flex-grow para ajustar el tamaño relativo */
+    min-width: 200px; /* Establece un ancho mínimo */
+    max-width: 600px; /* Establece un ancho máximo */
+    min-height: 150px; /* Establece una altura mínima */
+    max-height: 600px; /* Establece una altura máxima */
+    margin: auto;
+  }
+
+  
+  
+  

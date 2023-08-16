@@ -1,0 +1,12 @@
+<h1 class="text-center">Listado de Héroes
+    <mat-icon color="primary">verified</mat-icon>
+</h1>
+
+<mat-divider></mat-divider>
+
+<div class="grid p-1 pt-3">
+
+    <div *ngFor="let hero of heroes"
+        class="col-12 sm:col-4 md:col-3 xl:col-2">
+        <heroes-hero-card [hero]="hero"></heroes-hero-card>
+    </div>
